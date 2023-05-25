@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="/src/input.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body class="w-screen h-96git border flex flex-col items-center bg-gray-200">
+    <header class="cabecalho w-full flex justify-around p-14 bg-gray-200">
+        <div class="esq text-base flex gap-12 text-slate-700">
+            <img src="" alt="" srcset="">
+            <p>Entregador</p>
+            <p>Resturante e Mercado</p>
+            <p>Carreiras</p>
+            <p>MyFood Card</p>
+        </div>
+        <div class="dir flex items-center gap-8">
+            <a href="" class="text-rose-600 font-medium ">criar conta</a>
+            <button class="bg-red-600 text-white font-medium rounded-md w-28 h-10">Entrar</button>
+        </div>
+    </header>
+
+    <main class="container w-full flex flex-col border ">
+        <!---Topo 1-->
+        <div class="central flex flex-col items-center gap-2 mb-14 pt-10">
+            <h1 class="text-4xl ">Tudo pra facilitar seu dia a dia</h1>
+            <p class=" text-slate-500">O que você precisa está aqui. Peça e receba onde estiver.</p>
+            <div class="buscar w-4/5 flex justify-center gap-4 pt-5 pb-3">
+                <input type="text" placeholder="Endereço de entrega e número" class="w-3/5 h-10 border ">
+                <button  class="bg-red-600 text-white text-sm font-medium w-32 h-10 rounded">Buscar</button>
+            </div>
+        </div>
+
+        <!---Cards 1-->
+        <div class="cards1">
+            <div class="cardleft bg-red-600 text-white font-medium">
+                <a href="">
+                    <h1>Resturante</h1>
+                    <a href="">Ver opções ></a>
+                    <img src="/src/img/restaurant.webp" alt="hambuger">
+                </a>
+            </div>
+            <div class="cardright">
+                <a href="">
+                    <h1>Mercado</h1>
+                <a href="">Buscar lojas ></a>
+                <img src="/src/img/market.webp" alt="carrinho de compras">
+                </a>
+            </div>
+        </div>
+
+        <!---Cards 2-->
+        <div class="cards2">
+            <div class="bebidas">
+                <a href="">
+                    <img src="/src/img/drinks.webp" alt="refrigerante e cerveja">
+                    <p>Bebidas <span>></span></p>
+                </a>
+            </div>
+            <div class="farmacia">
+                <a href="">
+                    <img src="/src/img/pharmacy.webp" alt="refrigerante e cerveja">
+                    <p>Farmácia <span>></span></p>
+                </a>
+            </div>
+            <div class="petshop">
+                <a href="">
+                    <img src="/src/img/petshop.webp" alt="refrigerante e cerveja">
+                    <p>Pet shop <span>></span></p>
+                </a>
+            </div>
+        </div>
+        <hr>
+
+        <!---Melhores Restaurantes-->
+        <div class="melhoresrestaurantes">
+            <h1>Os melhores restaurantes</h1>
+            <div class="cardbestrestaurantes">
+                <div class="restaurantes">
+                    <a href="">
+                        <img src="/src/img/mcdonalds.webp" alt="">
+                        <p id="fonte">Mcdonald's</p>
+                        <p>Lanches</p>
+                        <img src="" alt="">
+                    </a>
+                </div>
+                <div class="restaurantes">
+                    <a href="">
+                        <img src="/src/img/cocobambu.webp" alt="">
+                        <p  id="fonte">Coco Bambu</p>
+                        <p>Frutos Do Mar</p>
+                        <img src="" alt="">
+                    </a>
+                </div>
+                <div class="restaurantes">
+                    <a href="">
+                        <img src="/src/img/chinainbox.webp" alt="">
+                        <p  id="fonte">China in Box</p>
+                        <p>Chinesa</p>
+                        <img src="" alt="">
+                    </a>
+                </div>
+                <div class="restaurantes">
+                    <a href="">
+                        <img src="/src/img/habibs.webp" alt="">
+                        <p  id="fonte">habibs's</p>
+                        <p>Lanches</p>
+                        <img src="" alt="">
+                    </a>
+                </div>
+                <div class="restaurantes">
+                    <a href="">
+                        <img src="/src/img/outback.webp" alt="">
+                        <p  id="fonte">Outback Steakhouse</p>
+                        <p>Lanches</p>
+                        <img src="" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <!---Banners-->
+            <div class="cardsbanners">
+                <a href=""><img src="/src/img/almoco.webp" alt=""></a>
+                <a href=""><img src="/src/img/pratos.webp" alt=""></a>
+                <a href=""><img src="/src/img/super_restaurantes.webp" alt=""></a>
+            </div>
+        </div>
+<hr>
+
+        <!---Mercados-->
+        <div class="cardbesrmarkets">
+            <div class="mercados">
+                <a href="">
+                    <img src="/src/img/diasuper.webp" alt="">
+                    <p>Dia Supermercado</p>
+                </a>
+            </div>
+            <div class="mercados">
+                <a href="">
+                    <img src="/src/img/bigsuper.webp" alt="">
+                    <p>Big</p>
+                </a>
+            </div>
+            <div class="mercados">
+                <a href="">
+                    <img src="/src/img/eataly.webp" alt="">
+                    <p>Eataly</p>
+                </a>
+            </div>
+        </div>
+        <hr>
+
+        <!---Parceiros-->
+        <div class="parceiros">
+            <div class="leftentregador">
+                <h1>Quer fazer entregas pelo Myfood?</h1>
+                <p>Faça agora o seu cadastro e comece o quanto anres.</p>
+                <button  class="bg-red-600 text-white font-medium">Saiba Mais</button>
+            </div>
+            <div class="leftempresas">
+                <h1>A sua fome de crescer ta no Myfood</h1>
+                <p>cadastre seu restaurante ou o seu mercado.</p>
+                <button  class="bg-red-600 text-white font-medium">Saiba Mais</button>
+            </div>
+        </div>
+        <hr>
+
+        <!---FoodLovers-->
+        <div class="foodlovers">
+            <h1>Você tem fome de quê?</h1>
+            <p>Descubra como é ser um MyFoodLover e faça parte da nossa revolução!</p>
+            <button  class="bg-red-600 text-white font-medium">Saiba Mais</button>
+        </div>
+        <div class="myfoodBenefits">
+            <img src="/src/img/ifood-benefits-desktop.webp" alt="">
+        </div>
+    </main>
+    
+    <footer class="rodape">
+        <div class="explore">
+            <h1>Explore por cidades</h1>
+            <a href="">Ver todas</a>
+        </div>
+        <div class="cidades">
+            <a href=""> <p>Belo Horizonte</p></a>
+            <a href=""><p>Brasília</p></a>
+            <a href=""> <p>Campinas</p></a>
+            <a href=""><p>Curitiba</p></a>
+            <a href=""><p>Goiânia</p></a>
+        </div>
+        <div class="cidades">
+            <a href=""><p>Guarulhos</p></a>
+            <a href=""><p>João Pessoa</p></a>
+            <a href=""><p>Natal</p></a>
+            <a href=""><p>Niterói</p></a>
+            <a href=""><p>Porto Alegre</p></a>
+        </div>
+        <div class="cidades">
+            <a href=""><p>Ribeirão Preto</p></a>
+            <a href=""><p>Rio de Janeiro</p></a>
+            <a href=""><p>Salvado</p></a>
+            <a href=""><p>Santo André</p></a>
+            <a href=""><p>Santos</p></a>
+        </div>
+        <div class="cidades">
+            <a href=""><p>São Bernardo do Campo</p></a>
+            <a href=""><p>São Caetano do Sul</p></a>
+            <a href=""><p>São Paulo</p></a>
+        </div>
+        <div class="myfood">
+            <a href=""><p>Site institucional</p></a>
+            <a href=""><p>Fale conosco</p></a>
+            <a href=""><p>Carreiras</p></a>
+            <a href=""><p>MyFood Eua</p></a>
+        </div>
+        <div class="descubra">
+            <a href=""><p>Cadastre seu Restaurante ou Mercado</p></a>
+            <a href=""><p>Myfood Shop</p></a>
+            <a href=""><p>Myfood Card</p></a>
+            <a href=""><p>Blog Myfood Empresas</p></a>
+        </div>
+        <div class="social">
+            <a href=""><img src="" alt="">/a>
+            <a href=""><img src="" alt="">/a>
+            <a href=""><img src="" alt="">/a>
+            <a href=""><img src="" alt="">/a>   
+        </div>
+    </footer>
+    
+</body>
+</html>
