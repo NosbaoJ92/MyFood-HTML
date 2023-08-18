@@ -13,6 +13,7 @@ font-family: 'Mulish', sans-serif; MULISH TÍTULOS DA PÁGINA*/
 
 *{
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 body{
