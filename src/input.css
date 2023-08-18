@@ -21,7 +21,6 @@ body{
     margin-right: -10px;
     background: rgb(243,244,246);
     background: linear-gradient(180deg, rgba(243,244,246,1) 15%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 100%);
-    background-color: white;
 }
 
 .container h1, .melhoresrestaurantes h1, #fonte {
