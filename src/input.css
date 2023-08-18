@@ -13,7 +13,7 @@ font-family: 'Mulish', sans-serif; MULISH TÍTULOS DA PÁGINA*/
 
 *{
     font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
+    
 }
 
 body{
@@ -22,6 +22,7 @@ body{
     margin-right: -10px;
     background: rgb(243,244,246);
     background: linear-gradient(180deg, rgba(243,244,246,1) 15%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 100%);
+    overflow-x: hidden;
 }
 
 .container h1, .melhoresrestaurantes h1, #fonte {
